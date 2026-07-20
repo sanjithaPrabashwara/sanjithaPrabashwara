@@ -1,0 +1,242 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="520" viewBox="0 0 1500 520">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#071426"/>
+      <stop offset="100%" stop-color="#12051f"/>
+    </linearGradient>
+
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#071d30"/>
+      <stop offset="100%" stop-color="#020817"/>
+    </linearGradient>
+
+    <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse">
+      <path d="M35 0H0V35" fill="none" stroke="#0e7490" stroke-width="1" opacity=".16"/>
+    </pattern>
+
+    <filter id="cyanGlow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="purpleGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1500" height="520" fill="url(#background)"/>
+  <rect width="1500" height="520" fill="url(#grid)"/>
+
+  <rect x="28" y="22" width="1444" height="476" rx="22"
+        fill="none" stroke="url(#neon)" stroke-width="2" opacity=".75"/>
+
+  <text x="65" y="68" fill="#00f5ff"
+        font-family="Consolas, monospace" font-size="21"
+        filter="url(#cyanGlow)">
+    ROOTBYPRABASH // CYBER SECURITY LAB
+  </text>
+
+  <text x="65" y="108" fill="#f8fafc"
+        font-family="Consolas, monospace" font-size="34" font-weight="700">
+    LEARN • HACK • INVESTIGATE • DEFEND
+  </text>
+
+  <text x="1165" y="68" fill="#22c55e"
+        font-family="Consolas, monospace" font-size="17">
+    ● SYSTEM ONLINE
+    <animate attributeName="opacity" values="1;.35;1" dur="1.5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Left terminal -->
+  <g transform="translate(65 145)">
+    <rect width="405" height="265" rx="14"
+          fill="url(#screen)" stroke="#00f5ff" stroke-width="2"/>
+
+    <rect width="405" height="38" rx="14" fill="#0b1728"/>
+    <rect y="27" width="405" height="11" fill="#0b1728"/>
+
+    <circle cx="22" cy="19" r="6" fill="#ff5f57"/>
+    <circle cx="43" cy="19" r="6" fill="#febc2e"/>
+    <circle cx="64" cy="19" r="6" fill="#28c840"/>
+
+    <text x="91" y="25" fill="#94a3b8"
+          font-family="Consolas, monospace" font-size="14">
+      root@kali: ~/operations
+    </text>
+
+    <text x="22" y="72" fill="#22c55e"
+          font-family="Consolas, monospace" font-size="17">
+      $ nmap -sV -O 10.10.10.10
+    </text>
+
+    <text x="22" y="105" fill="#7dd3fc"
+          font-family="Consolas, monospace" font-size="15">
+      PORT      STATE    SERVICE
+    </text>
+
+    <text x="22" y="136" fill="#f8fafc"
+          font-family="Consolas, monospace" font-size="15">
+      22/tcp    open     ssh
+    </text>
+
+    <text x="22" y="165" fill="#f8fafc"
+          font-family="Consolas, monospace" font-size="15">
+      80/tcp    open     http
+    </text>
+
+    <text x="22" y="194" fill="#f8fafc"
+          font-family="Consolas, monospace" font-size="15">
+      443/tcp   open     https
+    </text>
+
+    <text x="22" y="229" fill="#c084fc"
+          font-family="Consolas, monospace" font-size="15">
+      [*] Enumeration completed
+    </text>
+
+    <rect x="283" y="216" width="10" height="18" fill="#22c55e">
+      <animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="0" y="42" width="405" height="3" fill="#00f5ff" opacity=".28">
+      <animate attributeName="y" values="42;255;42" dur="4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Center hacker workstation -->
+  <g transform="translate(535 140)">
+    <rect x="0" y="0" width="430" height="270" rx="16"
+          fill="#040b17" stroke="#7c3aed" stroke-width="2"/>
+
+    <rect x="27" y="38" width="172" height="105" rx="7"
+          fill="#061e30" stroke="#00f5ff" stroke-width="2"/>
+
+    <rect x="231" y="38" width="172" height="105" rx="7"
+          fill="#061e30" stroke="#ec4899" stroke-width="2"/>
+
+    <path d="M43 122 L72 87 L103 105 L134 68 L179 96"
+          fill="none" stroke="#22c55e" stroke-width="4"/>
+
+    <g fill="#00f5ff">
+      <rect x="250" y="60" width="13" height="60">
+        <animate attributeName="height" values="60;30;60" dur="1.8s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="275" y="78" width="13" height="42">
+        <animate attributeName="height" values="42;70;42" dur="1.4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="300" y="50" width="13" height="70">
+        <animate attributeName="height" values="70;38;70" dur="2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="325" y="86" width="13" height="34">
+        <animate attributeName="height" values="34;65;34" dur="1.6s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="350" y="67" width="13" height="53">
+        <animate attributeName="height" values="53;25;53" dur="1.3s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <circle cx="215" cy="174" r="57" fill="#030712" stroke="#8b5cf6" stroke-width="3"/>
+    <path d="M165 185 Q175 120 215 118 Q255 120 265 185 Z"
+          fill="#0f172a" stroke="#00f5ff" stroke-width="2"/>
+
+    <path d="M184 170 Q215 195 246 170"
+          fill="none" stroke="#64748b" stroke-width="3"/>
+
+    <circle cx="196" cy="156" r="5" fill="#00f5ff" filter="url(#cyanGlow)"/>
+    <circle cx="234" cy="156" r="5" fill="#ec4899" filter="url(#purpleGlow)"/>
+
+    <rect x="103" y="224" width="224" height="22" rx="5"
+          fill="#111827" stroke="#334155"/>
+    <rect x="156" y="247" width="118" height="9" fill="#1e293b"/>
+
+    <text x="90" y="25" fill="#f8fafc"
+          font-family="Consolas, monospace" font-size="16">
+      AUTHORIZED SECURITY OPERATIONS
+    </text>
+  </g>
+
+  <!-- Right network operations -->
+  <g transform="translate(1030 145)">
+    <rect width="405" height="265" rx="14"
+          fill="url(#screen)" stroke="#22c55e" stroke-width="2"/>
+
+    <text x="22" y="35" fill="#22c55e"
+          font-family="Consolas, monospace" font-size="17">
+      NETWORK MONITOR
+    </text>
+
+    <path id="networkPath1" d="M60 95 C145 35 250 45 350 100"
+          fill="none" stroke="#164e63" stroke-width="3"/>
+
+    <path id="networkPath2" d="M60 180 C145 230 265 225 350 165"
+          fill="none" stroke="#581c87" stroke-width="3"/>
+
+    <path d="M60 95 L60 180 M350 100 L350 165"
+          fill="none" stroke="#334155" stroke-width="2"/>
+
+    <g fill="#020617" stroke="#00f5ff" stroke-width="3">
+      <circle cx="60" cy="95" r="20"/>
+      <circle cx="205" cy="65" r="20"/>
+      <circle cx="350" cy="100" r="20"/>
+      <circle cx="60" cy="180" r="20"/>
+      <circle cx="205" cy="210" r="20"/>
+      <circle cx="350" cy="165" r="20"/>
+    </g>
+
+    <g fill="#00f5ff">
+      <circle r="6">
+        <animateMotion dur="2.7s" repeatCount="indefinite">
+          <mpath href="#networkPath1"/>
+        </animateMotion>
+      </circle>
+    </g>
+
+    <g fill="#ec4899">
+      <circle r="6">
+        <animateMotion dur="3.2s" repeatCount="indefinite">
+          <mpath href="#networkPath2"/>
+        </animateMotion>
+      </circle>
+    </g>
+
+    <g fill="#22c55e">
+      <circle cx="60" cy="95" r="6">
+        <animate attributeName="r" values="5;10;5" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="350" cy="165" r="6">
+        <animate attributeName="r" values="5;10;5" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <text x="22" y="250" fill="#94a3b8"
+          font-family="Consolas, monospace" font-size="14">
+      packets: 53,280  |  alerts: 02  |  status: protected
+    </text>
+  </g>
+
+  <rect x="65" y="445" width="1370" height="2" fill="url(#neon)"/>
+
+  <text x="65" y="482" fill="#7dd3fc"
+        font-family="Consolas, monospace" font-size="17">
+    DIGITAL FORENSICS • NETWORK SECURITY • ETHICAL HACKING • CTF
+  </text>
+
+  <text x="1190" y="482" fill="#22c55e"
+        font-family="Consolas, monospace" font-size="17">
+    SANJITHA PRABASHWARA
+  </text>
+</svg>
