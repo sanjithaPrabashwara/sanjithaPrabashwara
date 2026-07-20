@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 # Hi, I'm Sanjitha Prabashwara
 
@@ -8,7 +8,7 @@
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" alt="Animated developer workspace banner" width="100%" />
+<img src="./assets/sanjitha-cyber-banner.svg" alt="Sanjitha Prabashwara cybersecurity operations banner" width="100%" />
 
 ## About Me
 
@@ -123,3 +123,4 @@ I am interested in learning with the security community and collaborating on eth
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:7AA2F7,50:BB9AF7,100:9ECE6A&amp;height=120&amp;section=footer" alt="Animated Tokyo Night footer" width="100%" />
 </div>
+
